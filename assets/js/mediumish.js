@@ -30,6 +30,27 @@ jQuery(document).ready(function($){
         }
     });
 
+    // Damiano – Show footer copyright and credits only when the site is fullu scrolled.
+
+    const footerCopyright = $('#footer-copyright');
+    const footerCredits = $('#footer-credits');
+
+    if ($(document).width() > 900) {
+      $(document).scroll(function() {
+        const y = $(window).scrollTop() + $(window).height();
+        const documentHeight = $(document).height();
+        if (y >= documentHeight) {
+          footerCopyright.stop().fadeTo("fast", 1);
+          footerCredits.stop().fadeTo("fast", 1);
+        } else {
+          footerCopyright.stop().fadeTo("fast", 0);
+          footerCredits.stop().fadeTo("fast", 0);
+        }
+      });
+    }
+    
+    // --
+
 
     // Smooth on external page
     $(function() {

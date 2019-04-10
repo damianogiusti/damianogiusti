@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: default-with-bio
 title: Home
+permalink: /
 ---
 
 {% if page.url == "/" %}
@@ -9,9 +10,9 @@ title: Home
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
-        <h2><span>Featured</span></h2>
+        <h2><span>Latest posts</span></h2>
     </div>
-    <div class="row">
+    <div class="row listrecent">
         
     {% for post in site.posts %}
 
@@ -42,7 +43,7 @@ title: Home
 
         {% for post in paginator.posts %}
 
-               {% include postbox.html %}          
+            {% include postbox.html %}          
 
         {% endfor %}
         
