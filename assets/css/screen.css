@@ -753,3 +753,9 @@ body {
 .dg-footer-icon-size {
     font-size: 1.1rem;
 }
+
+/* Add Github style to code snippets */
+pre.highlight {
+    background-color: #f6f8fa;
+    padding: 1rem;
+}
