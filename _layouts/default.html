@@ -7,10 +7,19 @@ layout: base
         <img class="rounded-circle img-fluid lazyimg" 
         src="https://www.gravatar.com/avatar/{{ site.data.authors.me.gravatar }}?s=500&d=mm&r=x" alt="">
     </div>
-    <div class="col-lg-11 col-md-10 align-self-center">     
+    <div class="col-12 col-lg-11 col-md-10 align-self-center">     
         <div class="mainheading">
-            <h1 class="sitetitle">{{ site.name }}</h1>
+            <h1 class="sitetitle text-center text-md-left">{{ site.name }}</h1>
+            <p class="d-none d-md-block d-lg-none mt-3 ml-1">
+                {% include social-icons.html %}
+            </p>
         </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 d-block d-md-none text-center">
+        {% include social-icons.html %}
     </div>
 </div>
 
