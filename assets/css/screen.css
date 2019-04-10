@@ -631,7 +631,7 @@ body {
          padding:0;
          height:350px;
          border-radius:0;
-         background-image: url(https://source.unsplash.com/featured/?rock+concert);
+         background-image: url(https://source.unsplash.com/featured/1920x350/?rock,concert);
          background-size:cover;
     }
      .jumbotron.fortags .col-md-4 {
@@ -646,7 +646,7 @@ body {
    margin-top: 3rem;
    padding:0;
    border-radius:0;
-   background-image: url(https://source.unsplash.com/featured/?rock+concert);
+   background-image: url(https://source.unsplash.com/featured/1920x350/?rock,concert);
    background-size:cover;
 }
  .jumbotron.fortags a {
