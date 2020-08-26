@@ -3,7 +3,7 @@ layout: post
 title:  "Kotlin inline classes, such magic"
 author: me
 categories: [ Kotlin, Android ]
-image: assets/images/kotlin-inline-classes.jpg
+image: /assets/images/kotlin-inline-classes.jpg
 featured: true
 hidden: true
 ---

@@ -2,8 +2,8 @@
 layout: post
 title:  "A trip into Kotlin Multiplatform Projects, Part 2"
 author: me
-categories: [ Kotlin Multiplatform, Android, iOS, Bluetooth ]
-image: assets/images/kotlin-multiplatform-pt2.jpg
+categories: [ Kotlin, Multiplatform, Android, iOS, Bluetooth ]
+image: /assets/images/kotlin-multiplatform-pt2.jpg
 featured: true
 hidden: true
 ---
