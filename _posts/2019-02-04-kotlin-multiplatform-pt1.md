@@ -209,3 +209,5 @@ The following step was the integration of a standard BLE communication… But th
 Thanks for reading!
 
 Cover image credits: blog.jetbrains.com
+
+> Originally posted in [MOLO17 Blog](https://blog.molo17.com/2019/02/a-trip-into-kotlin-native-multiplatform-projects-part-1/)

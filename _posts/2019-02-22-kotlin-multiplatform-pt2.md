@@ -251,3 +251,4 @@ Stay tuned, thanks for reading!
 
 You can find all the code behind this project in [this GitHub repository](https://github.com/MOLO17/kotlin-mpp-poc). 
 
+> Originally posted in [MOLO17 Blog](https://blog.molo17.com/2019/02/a-trip-into-kotlin-native-multiplatform-projects-part-2/)
