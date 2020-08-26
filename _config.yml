@@ -1,11 +1,11 @@
 # Site
 name: "Damiano Giusti"
-title: "Damiano Giusti's Blog"
+title: "Damiano Giusti"
 description: >
   Hi everybody, Damiano's here! 
-  Software Engineer @ MOLO17 focused on Android apps development. 
-  Welcome to my blog, a place where I share some pills from my every day experience about mobile apps development 
-  and software engineering.
+  Mobile Software Engineer @ MOLO17 focused on Android apps development. 
+  Welcome to my blog, a place where I share some pills from my every day experience about 
+  mobile apps development and software engineering.
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
 baseurl: ''
