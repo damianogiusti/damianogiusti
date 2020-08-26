@@ -1,5 +1,5 @@
 ---
-layout: default-with-bio
+layout: default-responsive-bio
 title: Latest tweets
 permalink: /tweets
 comments: false
